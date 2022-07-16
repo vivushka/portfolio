@@ -8,6 +8,12 @@
       name="description"
       content="You will find out more facts about me here"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,12 +29,11 @@
     <title>About me and my way in IT</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-green">
       <div class="container-fluid">
         <a
           class="navbar-brand border border-warning p-2 border-1"
           href="index.html"
-          title="VP Victoria Palash"
         >
           VP
         </a>
@@ -49,8 +54,8 @@
               <a
                 class="nav-link"
                 aria-current="page"
-                title="Main page"
                 href="index.html"
+                title="Main page"
                 >Home</a
               >
             </li>
@@ -75,16 +80,30 @@
       </div>
     </nav>
 
-    <h1 class="text-center">About me</h1>
+    <h1 class="text-center heading-about">About me</h1>
     <h3 class="text-center">Front-end developer from Kyiv, Ukraine</h3>
-    <p class="text-center m-3 about-paragraphs">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam
-      provident tempora? Cumque adipisci, non dolorem quia, odit qui alias
-      veniam excepturi rem dolor fugit dignissimos, sed voluptatum blanditiis
-      harum.
+    <p class="text-left w-75 mt-5 d-block m-auto">
+      My story of entering the IT industry began during the COVID-19 quarantine,
+      when I successfully completed online web design courses, and even created
+      several projects for my portfolio.
     </p>
-    <div class="container">
+    <p class="text-left w-75 mt-2 d-block m-auto">
+      Right now there is a tough war going on in my country and for the moment I
+      can stay in a safe area and I just recently got the opportunity to study
+      at SheCodes Foundation. Over the past few months of study, I have
+      undertaken several projects using HTML/CSS/JS. In addition to I`ve got
+      knowledge in API, Bootstrap, Ajax, GitHub and I can provide some UI/UX
+      design services.
+    </p>
+    <div class="container mt-5">
       <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="images/decoroom.png"
+            title="decoroom web design"
+            class="shadow rounded pt-2 w-100 img-fluid"
+          />
+        </div>
         <div class="col-sm-4">
           <img
             src="images/polish.png"
@@ -94,21 +113,36 @@
         </div>
         <div class="col-sm-4">
           <img
+            src="images/real.png"
+            title="Real Estate"
+            class="shadow rounded pt-2 img-fluid"
+          />
+        </div>
+        <div class="col-sm-4 mt-3 mb-5">
+          <img
+            src="images/monobuild.png"
+            alt="Web design monobuild"
+            class="shadow rounded pt-2 img-fluid"
+          />
+        </div>
+        <div class="col-sm-4 mt-3 mb-5">
+          <img
             src="images/weather.png"
             alt="Weather App"
             class="shadow rounded pt-2 img-fluid"
           />
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-sm-4 mt-3 mb-5">
           <img
-            src="images/yogurt.jpg"
-            title="Yogurt app"
+            src="images/books.png"
+            alt="Web-design e-book"
             class="shadow rounded pt-2 img-fluid"
           />
         </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
+    <div id="contact" class="mt-5 mb-5">
       <h2>📮 Contact me</h2>
       <a
         href="mailto:victoriapalash1@gmail.com"
