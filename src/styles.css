@@ -90,8 +90,9 @@ p {
   display: flex;
   justify-content: center;
   color: var(--accent-color);
-  font-size: 28px;
+  font-size: 16px;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 .email-link:hover {
@@ -134,7 +135,6 @@ p {
 }
 .text-about {
   background-color: var(--secondary-color);
-
   display: block;
   margin: 0 auto;
   max-width: 100%;
